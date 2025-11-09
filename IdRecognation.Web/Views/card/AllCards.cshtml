@@ -1,0 +1,25 @@
+@model List<Application.DTOs.CardDto>
+
+<h2>All Uploaded Cards</h2>
+
+<table border="1" cellpadding="5">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Company</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var card in Model)
+        {
+            <tr>
+                <td>@card.Name</td>
+                <td>@card.Email</td>
+                <td>@card.Phone</td>
+                <td>@card.Company</td>
+            </tr>
+        }
+    </tbody>
+</table>
