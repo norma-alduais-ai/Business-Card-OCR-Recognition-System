@@ -38,10 +38,8 @@ Tech Stack
 - Tools: Visual Studio, Git, GitHub  
 
 Demo Video
-📺 Demo: <video width="600" controls>
-  <source src="Media/OCRDemo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+📺 Demo: Watch the demo: [Click here to play](https://drive.google.com/file/d/1nLKMmSOJ19rvfz6KxjPvgrlXO5Rz7Un6/view?usp=drive_link)
+
 
 
 How to Run
