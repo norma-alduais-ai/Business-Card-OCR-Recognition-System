@@ -30,12 +30,13 @@ namespace Infrastructure.Services
             // Verify eng.traineddata exists
             var engDataPath = Path.Combine(_tessDataPath, "eng.traineddata");
             if (!File.Exists(engDataPath))
+
             {
                 throw new FileNotFoundException($"❌ eng.traineddata not found at: {engDataPath}");
             }
 
             var fileInfo = new FileInfo(engDataPath);
-            Console.WriteLine($"✅ eng.traineddata found - Size: {fileInfo.Length} bytes");
+            Console.WriteLine($" eng.traineddata found - Size: {fileInfo.Length} bytes");
 
             // Test Tesseract initialization
             try
