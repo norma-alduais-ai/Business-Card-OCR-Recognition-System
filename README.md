@@ -38,7 +38,7 @@ Tech Stack
 - Tools: Visual Studio, Git, GitHub  
 
 Demo Video
-📺 Demo: [Watch here](https://youtu.be/YOUR_VIDEO_LINK)
+📺 Demo: [Watch here](Media/OCRDemo.mp4)
 
 How to Run
 1. Clone Repository:  
