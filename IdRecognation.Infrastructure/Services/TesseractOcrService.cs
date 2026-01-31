@@ -23,9 +23,9 @@ namespace Infrastructure.Services
             // Verify tessdata directory exists
             if (!Directory.Exists(_tessDataPath))
             {
-                throw new DirectoryNotFoundException($"❌ tessdata directory not found at: {_tessDataPath}");
+                throw new DirectoryNotFoundException($" tessdata directory not found at: {_tessDataPath}");
             }
-            Console.WriteLine($"✅ Tessdata directory found");
+            Console.WriteLine($"Tessdata directory found");
 
             // Verify eng.traineddata exists
             var engDataPath = Path.Combine(_tessDataPath, "eng.traineddata");
@@ -42,7 +42,7 @@ namespace Infrastructure.Services
             try
             {
                 using var testEngine = new TesseractEngine(_tessDataPath, "eng", EngineMode.Default);
-                Console.WriteLine($"✅ Tesseract engine initialized successfully!");
+                Console.WriteLine($" Tesseract engine initialized successfully!");
             }
             catch (Exception ex)
             {
