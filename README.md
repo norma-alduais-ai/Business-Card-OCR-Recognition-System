@@ -38,7 +38,11 @@ Tech Stack
 - Tools: Visual Studio, Git, GitHub  
 
 Demo Video
-📺 Demo: [Watch here](Media/OCRDemo.mp4)
+📺 Demo: <video width="600" controls>
+  <source src="Media/OCRDemo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 How to Run
 1. Clone Repository:  
